@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Page Title</title>
+<style>
+body {
+    background-image: url("header_image.png");
+    background-repeat: no-repeat;
+    background-position: middle;
+    margin-right: 200px;
+    background-size: 1800px 1200px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 1800px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+</style>
+
+<!-- Set background and header -->
+<h1 style="color:rgb(230, 0, 0)">TITLE</h1>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+<!-- Create links to important parts of webpage -->
+<ul>
+    <li><a href="#G1">Task 1</a>
+    <li><a href="#G2">Task 2</a>
+    <li><a href="#G3">Task 3</a>
+    <li><a href="#CALC">Task 4</a>
+    <li><a href="#G4">Task 5</a>
+</ul>
+
+<br> <br> <br> <br> <br>
+
+<!-- Graph: Task 1 -->
+<img  id="G1" src="task1.png" alt="Task 1" width="700" height="700">
+
+<!-- Graph: Task 2 -->
+<img id ="G2" src="task2.png" alt="Task 2" width="700" height="700">
+
+<!-- Graph: Task 3 -->
+<img id="G3" src="task3.png" alt="Task 3" width="700" height="700">
+
+<!-- Calculator: Task 4 -->
+<h4 style="text-align:center;" id="CALC">Whatever they ask me to calculate</h4>
+
+Text box 1:<br>
+<input type="text" name="time" id="time_input" value="mm/dd/yyy --:--  --">
+<br>
+Text box 2:<br>
+<input type="text" name="address" id="address_input" value="Street, City, State Zipcode" style="width: 185px">
+<br><br>
+<!--</form>-->
+<button onclick="time_and_address()">Submit</button> <!-- javascript function -->
+<p id="output"></p>
+
+<!-- Graph: Task 4 -->
+<img id="G4" src="task4.png" alt="Task 4" width="700" height="700">
+
+
+</body>
